@@ -1,0 +1,17 @@
+
+// Epitech : Security lab
+// Manfred Touron & Vincent Guasconi
+
+// 2008
+
+This server has been tested under FreeBSD 8 and MacOS 10.4,
+it's written in C.
+
+Its goal is to emulate 302 HTTP redirections when requesting.
+Its a Proof of Concept. Some exemples of scripts are in confs/.
+(You can find an exemple of a blind attack)
+
+For more advanced explainations on what's about, fetch the
+paper called "Advanced CSRF for Fun (and profit)" (French/English) :
+http://esl.epitech.net/acsrf
+or write us an email at esl@epitech.net
