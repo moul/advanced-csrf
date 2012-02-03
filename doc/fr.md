@@ -28,7 +28,9 @@ Preuves de concept
 * <a href="acsrf-server_1.0.tar.bz2">acsrf-server_1.0.tar.bz2</a>
 
 Serveur multiplex&eacute; capable de faire des <em>Advanced CSRF</em> par sessions.
+
 Le serveur bloque toutes les sockets de l'application sauf une. Il se sert alors de la socket disponible pour redirig&eacute;e la cible sur l'application &agrave; attaquer.
+
 Il compare ensuite le temps que met la cible pour recontacter le serveur (temps de calcul de la page), il est donc permis de faire des Attaques de type Blind SQL injections.
 
 Grace &agrave; un syst&egrave;me de sessions, les attaques peuvent &ecirc;tre cibl&eacute;es (par ips), de programmer plusieurs attaques, de faire des CSRF classiques (sans notion de temps de calcul) ou tout simplement de faire une redirection sur une image existante, ce qui permet de camoufler l'attaque sur une page au rechargement de la page, une fois l'attaque termin&eacute;e.
@@ -41,12 +43,16 @@ Il est potentiellement possible de reproduire ce type d'attaques sur d'autres cl
 
 <a href="inject_html.js">inject_html.js</a>
 Proof of concept des blind sql injections basees sur le temps de reponse d'une requete redirigee.
-e script se contente de creer un objet image javascript qu'il redirige vers la page a tester, en ajoutant un chronometre avant et apres la redirection vers le site victime.
+
+Ce script se contente de creer un objet image javascript qu'il redirige vers la page a tester, en ajoutant un chronometre avant et apres la redirection vers le site victime.
+
 Dans cette example encore, c'est le visiteur de la page web qui attaque victim.com et donc apparait dans les logs a notre place.
 
 Infos
 =====
 
 Auteur: <a href="http://esl.epitech.net/~moul">Manfred Touron</a>
+
 Avec l'aide de: <a href="http://esl.epitech.net/~tyop">Vincent Guasconi</a> pour la documentation
+
 <a href="http://esl.epitech.net/">Epitech Security Lab.</a>
