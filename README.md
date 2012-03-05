@@ -18,5 +18,4 @@ Demos
 * [via GMail](https://github.com/moul/advanced-csrf/blob/master/doc/server-demo-fr-gmail.md)
 * [via ThunderBird](https://github.com/moul/advanced-csrf/blob/master/doc/server-demo-fr-mail.md)
 
-© 2008 Manfred Touron - BSD License.
-
+© 2008 Manfred Touron - [BSD License](https://github.com/moul/advanced-csrf/blob/master/License.txt).
