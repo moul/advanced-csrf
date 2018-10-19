@@ -1,6 +1,8 @@
 ACSRF: Advanced Cross Site Request Forgery
 ==========================================
 
+[![GuardRails badge](https://badges.production.guardrails.io/moul/advanced-csrf.svg)](https://www.guardrails.io)
+
 by Manfred Touron
 
 Docs & links
